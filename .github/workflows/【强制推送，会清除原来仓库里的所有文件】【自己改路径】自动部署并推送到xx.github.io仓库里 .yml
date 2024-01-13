@@ -52,7 +52,7 @@ jobs:
         run: pnpm install # 或 pnpm install / yarn install / bun install / npm ci
       - name: Build with VitePress
         run: |
-          pnpm run build
+          pnpm build
           mv ./README.md ./dist/README.md
 
           # 推送到<username>.github.io main中的一个文件夹
