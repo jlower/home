@@ -5,8 +5,88 @@
     "link": "https://blog.lowoneko.eu.org"
   },
   {
-    "icon": "Book",
+    "icon": "AddressBook",
     "name": "简历",
     "link": "https://resume.lowoneko.eu.org"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "装备前线 zFrontier",
+    "link": "https://www.zfrontier.com/app/#info"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "iKuuu",
+    "link": "https://ikuuu.me/user"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "北+ 社区论坛任务",
+    "link": "https://bbs.imoutolove.me/plugin.php?H_name-tasks.html"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "维咔VikACG",
+    "link": "https://www.vikacg.com/post"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "真白萌",
+    "link": "https://masiro.me/admin/novels"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "吾爱破解",
+    "link": "https://www.52pojie.cn"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "搜书吧",
+    "link": "https://www.soushu2025.com"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "月曦论坛",
+    "link": "https://bbs.wcccc.cc/forum.php"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "Amazon.com:管理我的内容和设备",
+    "link": "https://www.amazon.com/hz/mycd/digital-console/contentlist/pdocs/dateDsc"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "send to kindle",
+    "link": "https://www.amazon.com/sendtokindle"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "Exhentai male:gender+change",
+    "link": "https://exhentai.org/tag/male:gender+change"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "YouTube",
+    "link": "https://www.youtube.com"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "Twitter",
+    "link": "https://twitter.com/home"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "pixiv",
+    "link": "https://www.pixiv.net"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "Discord",
+    "link": "https://discord.com/channels/@me"
+  },
+  {
+    "icon": "AngleRigh",
+    "name": "Twitch",
+    "link": "https://www.twitch.tv"
   }
 ]
