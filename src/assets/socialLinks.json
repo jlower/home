@@ -2,19 +2,19 @@
   {
     "name": "Github",
     "icon": "/images/icon/github.png",
-    "tip": "去 Github 看看",
+    "tip": "去我的 Github 看看 ~",
     "url": "https://github.com/jlower"
   },
   {
     "name": "Twitter",
     "icon": "/images/icon/twitter.png",
-    "tip": "你懂的 ~",
+    "tip": "推特X ~",
     "url": "https://twitter.com/creampunch_kiss"
   },
   {
     "name": "BiliBili",
     "icon": "/images/icon/bilibili.png",
-    "tip": "(゜-゜)つロ 干杯 ~",
+    "tip": "B站",
     "url": "https://space.bilibili.com/"
   },
   {
@@ -32,7 +32,7 @@
   {
     "name": "Telegram",
     "icon": "/images/icon/telegram.png",
-    "tip": "你懂的 ~",
+    "tip": "电报 ~",
     "url": "https://t.me/"
   }
 ]
