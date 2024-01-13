@@ -2,16 +2,16 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://jlower.github.io/blog"
+    "link": "https://blog.lowoneko.eu.org"
   },
   {
-    "icon": "Book",
+    "icon": "Resume",
     "name": "简历",
-    "link": "https://jlower.github.io/resume"
+    "link": "https://resume.lowoneko.eu.org"
   },
   {
-    "icon": "Compass",
+    "icon": "Nav Compass",
     "name": "起始页",
-    "link": "https://jlower.github.io/nav"
+    "link": "https://nav.lowoneko.eu.org"
   }
 ]
