@@ -80,12 +80,12 @@
     "link": "https://www.pixiv.net"
   },
   {
-    "icon": "Bookmark",
+    "icon": "CheckDouble",
     "name": "Discord",
     "link": "https://discord.com/channels/@me"
   },
   {
-    "icon": "Bookmark",
+    "icon": "BookmarkRegular",
     "name": "Twitch",
     "link": "https://www.twitch.tv"
   }
