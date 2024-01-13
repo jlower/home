@@ -1,7 +1,6 @@
 # 构建 VitePress 站点并将其部署到 GitHub Pages 的示例工作流程
-# 注意更改文件夹
 
-name: Push site to Other repository
+name: Deploy Home Pages
 
 on:
   # 在针对 `main` 分支的推送上运行。如果您
@@ -46,30 +45,27 @@ jobs:
         with:
           node-version: 18
           cache: pnpm # 或 pnpm / yarn / npm
-          # cache-dependency-path: subdir/pnpm-lock.yaml # subdir/package-lock.json
-
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
       - name: Install dependencies
         run: pnpm install # 或 pnpm install / yarn install / bun install / npm ci
-      - name: Build with VitePress
+      - name: Build with Vite
         run: |
           pnpm build
-          mv ./README.md ./dist/README.md
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./dist
 
-          # 推送到<username>.github.io main中的一个文件夹
-          # 下面要发布的内容所在的文件夹写 ./publ 就能实现
-          # mkdir ./publ
-          # mv docs/.vitepress/dist ./publ/blog
-
-      # [强制推送，会清除原来仓库里的所有文件]自动推送到<username>.github.io仓库里
-      - name: publish
-        uses: s0/git-publish-subdir-action@master
-        env:
-          REPO: git@github.com:jlower/jlower.github.io.git # 目标库的ssh链接
-          BRANCH: main # 目标分支
-          FOLDER: ./dist # 要发布的内容所在的文件夹
-
-          # 将之前在Github账号内录入过公钥的SSH生成的密钥添加到当前仓库的 Secrets 中
-          # 在 GitHub 仓库页面的 Settings > Secrets and variables > Actions > Repository secrets 中，点击 “New repository secret”，
-          # 然后将密钥名称设置为 SSH_PRIVATE_KEY，密钥值设置为之前在Github账号内录入过公钥的SSH生成的密钥。
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-
+  # 部署工作
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
