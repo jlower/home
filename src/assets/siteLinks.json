@@ -8,10 +8,5 @@
     "icon": "Book",
     "name": "简历",
     "link": "https://resume.lowoneko.eu.org"
-  },
-  {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.lowoneko.eu.org"
   }
 ]
