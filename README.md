@@ -62,6 +62,10 @@ const siteIcon = {
 > `.env` 中的 `VITE_WEATHER_KEY` 直接留空用教书先生的 API 吧  
 > 或者使用 百度地图 的 [天气、地区API](https://lbsyun.baidu.com/faq/api?title=webapi/weather/base)
 
+1. [心知天气](https://www.seniverse.com/)的API
+
+1. [和风天气](https://www.qweather.com/)的API
+
 1. `百度地图开放平台` 相关 API
 
     - 前往 [百度地图开放平台控制台](https://console.amap.com/dev/index) 或 [百度地图开放平台](https://lbsyun.baidu.com/) 创建一个 `服务端` 类型的 `AK`，并将 `AK` 填入 `.env` 中的 `BAIDU_WEATHER_KEY` 中
