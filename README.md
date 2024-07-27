@@ -3,10 +3,10 @@
 
 ## 个人主页
 
-> \src\assets 中的数据改成自己的
-> \src\components\MoreContent.vue 中的数据改成自己的
-> \public\images 中的数据改成自己的
-> \public\font\Pacifico-Regular.ttf 中字体替换成老的(大的)
+> \src\assets 中的数据改成自己的  
+> \src\components\MoreContent.vue 中的数据改成自己的  
+> \public\images 中的数据改成自己的  
+> \public\font\Pacifico-Regular.ttf 中字体替换成老的(大的)  
 > 修改 .env 文件内的内容
 
 ### 网站链接
@@ -57,8 +57,8 @@ const siteIcon = {
 
 ### 天气
 
-> 高德局域网和外网ip无法使用，中国移动的网无法使用但中国电信的网可以
-> `.env` 中的 `VITE_WEATHER_KEY` 直接留空用教书先生的 API 吧
+> 高德局域网和外网ip无法使用，中国移动的网无法使用但中国电信的网可以  
+> `.env` 中的 `VITE_WEATHER_KEY` 直接留空用教书先生的 API 吧  
 > 或者使用 百度地图 的 [天气、地区API](https://lbsyun.baidu.com/faq/api?title=webapi/weather/base)
 
 1. `百度地图开放平台` 相关 API
