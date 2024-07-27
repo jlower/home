@@ -1,5 +1,5 @@
 <template>
-  <div class="more-content">
+  <div class="github-project">
     <div class="title">
       <github-one theme="two-tone" size="24" :fill="['#efefef', '#00000020']" />
       <span>Github</span>
@@ -47,16 +47,6 @@ const projectData = [
     name: "BlueArchive-Cursors",
     author: "jlower",
     desc: "碧蓝档案指针",
-  },
-  {
-    name: "majsoul-mod-mahjong-helper-mitmproxy",
-    author: "jlower",
-    desc: "雀魂皮肤全解锁",
-  },
-  {
-    name: "majsoul-helper",
-    author: "jlower",
-    desc: "雀魂ai自动代打",
   },
 ];
 
@@ -157,4 +147,3 @@ const toGithub = (data) => {
   }
 }
 </style>
-
