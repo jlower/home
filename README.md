@@ -57,11 +57,17 @@ const siteIcon = {
 
 ### 天气
 
-天气及地区获取需要 `高德开放平台` 相关 API
+> 高德局域网和外网ip无法使用，中国移动的网无法使用但中国电信的网可以
+> `.env` 中的 `VITE_WEATHER_KEY` 直接留空用教书先生的 API 吧
+> 或者使用 百度地图 的 [天气、地区API](https://lbsyun.baidu.com/faq/api?title=webapi/weather/base)
 
-- 前往 [高德开放平台控制台](https://console.amap.com/dev/index) 创建一个 `Web 服务` 类型的 `Key`，并将 `Key` 填入 `.env` 中的 `VITE_WEATHER_KEY` 中
+1. `百度地图开放平台` 相关 API
 
-也可自行更换其他方式
+    - 前往 [百度地图开放平台控制台](https://console.amap.com/dev/index) 或 [百度地图开放平台](https://lbsyun.baidu.com/) 创建一个 `服务端` 类型的 `AK`，并将 `AK` 填入 `.env` 中的 `BAIDU_WEATHER_KEY` 中
+
+1. 天气及地区获取需要 `高德开放平台` 相关 API
+
+    - 前往 [高德开放平台控制台](https://console.amap.com/dev/index) 或 [高德开放平台](https://developer.amap.com/) 创建一个 `Web 服务` 类型的 `Key`，并将 `Key` 填入 `.env` 中的 `VITE_WEATHER_KEY` 中
 
 ### 音乐
 
