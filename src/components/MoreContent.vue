@@ -1,5 +1,5 @@
 <template>
-  <div class="github-project">
+  <div class="more-content">
     <div class="title">
       <github-one theme="two-tone" size="24" :fill="['#efefef', '#00000020']" />
       <span>Github</span>
@@ -147,3 +147,4 @@ const toGithub = (data) => {
   }
 }
 </style>
+
