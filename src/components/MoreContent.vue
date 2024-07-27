@@ -48,16 +48,17 @@ const projectData = [
     author: "jlower",
     desc: "碧蓝档案指针",
   },
-  {
-    name: "majsoul-mod-mahjong-helper-mitmproxy",
-    author: "jlower",
-    desc: "雀魂皮肤全解锁",
-  },
-  {
-    name: "majsoul-helper",
-    author: "jlower",
-    desc: "雀魂ai自动代打",
-  },
+  // 太多了发放不下，随便弄点吧
+  // {
+  //   name: "majsoul-mod-mahjong-helper-mitmproxy",
+  //   author: "jlower",
+  //   desc: "雀魂皮肤全解锁",
+  // },
+  // {
+  //   name: "majsoul-helper",
+  //   author: "jlower",
+  //   desc: "雀魂ai自动代打",
+  // },
 ];
 
 // 计算网站链接
