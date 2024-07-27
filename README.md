@@ -8,7 +8,7 @@
 > \public\images 中的数据改成自己的  
 > \public\font\Pacifico-Regular.ttf 中字体替换成老的(大的)  
 > 修改 .env 文件内的内容  
-> **自己修改了** ```src\components\Message.vue``` 文件，在 ```.env``` 文件中新加了 ```VITE_SITE_SUBTITLE = "Lowo" # 站点副标题``` ，修改此处来修改副标题
+> **自己修改了** ```src\components\Message.vue```与```src\views\Main\Right.vue```与```src\views\MoreSet\index.vue``` 文件(更改了它们显示的副标题，从默认网站地址改成了能自定义副标题名称)，在 ```.env``` 文件中新加了 ```VITE_SITE_SUBTITLE = "Lowo" # 站点副标题``` ，修改此处来修改副标题
 
 ### 网站链接
 
