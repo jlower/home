@@ -21,7 +21,7 @@
     "name": "QQ",
     "icon": "/images/icon/qq.png",
     "tip": "有什么事吗",
-    "url": "https://res.abeim.cn/api/qq/?qq=870050851"
+    "url": "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=870050851&website=lowoneko.eu.org"
   },
   {
     "name": "Email",
@@ -33,6 +33,6 @@
     "name": "Telegram",
     "icon": "/images/icon/telegram.png",
     "tip": "电报 ~",
-    "url": "https://t.me/"
+    "url": "https://t.me/lowoneko"
   }
 ]
