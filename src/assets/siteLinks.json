@@ -5,6 +5,11 @@
     "link": "https://blog.lowoneko.eu.org"
   },
   {
+    "icon": "Tv",
+    "name": "IPTV源",
+    "link": "https://iptv.lowoneko.eu.org"
+  },
+  {
     "icon": "AddressBook",
     "name": "简历",
     "link": "https://resume.lowoneko.eu.org"
